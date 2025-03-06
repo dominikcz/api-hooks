@@ -1,10 +1,10 @@
 {
-	"name": "@dominikcz/api-hooks",
+	"name": "api-hooks",
 	"version": "1.0.0",
 	"description": "Simple git hooks for OpenApi workflow",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/dominikcz/api-hooks"
+		"url": "git+https://github.com/dominikcz/api-hooks.git"
 	},
 	"license": "MIT",
 	"author": "dominikcz",
@@ -13,14 +13,14 @@
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"bin": {
-		"api-pre-commit": "./hooks/api-pre-commit.mjs",
-		"api-post-commit": "./hooks/api-post-commit.mjs"
+		"api-pre-commit": "hooks/api-pre-commit.mjs",
+		"api-post-commit": "hooks/api-post-commit.mjs"
 	},
 	"publishConfig": {
 		"access": "public"
 	},
 	"dependencies": {
-		"@dominikcz/api-hooks": "file:"
+		"@dominikcz/api-hooks": "file:",
+		"api-hooks": "file:"
 	}
 }
-
