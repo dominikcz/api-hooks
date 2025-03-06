@@ -13,8 +13,8 @@
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"bin": {
-		"api-pre-commit": "./api-pre-commit.mjs",
-		"api-post-commit": "./api-post-commit.mjs"
+		"api-pre-commit": "./hooks/api-pre-commit.mjs",
+		"api-post-commit": "./hooks/api-post-commit.mjs"
 	},
 	"dependencies": {
 		"@dominikcz/api-hooks": "file:"
