@@ -16,7 +16,11 @@
 		"api-pre-commit": "./hooks/api-pre-commit.mjs",
 		"api-post-commit": "./hooks/api-post-commit.mjs"
 	},
+	"publishConfig": {
+		"access": "public"
+	},
 	"dependencies": {
 		"@dominikcz/api-hooks": "file:"
 	}
 }
+
